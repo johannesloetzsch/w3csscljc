@@ -17,9 +17,9 @@
   :cljsbuild {:builds
               [{:id "dev"
                 :source-paths ["src"]
-                :figwheel {:on-jsload "w3csscljc.core/on-js-reload"
+                :figwheel {:on-jsload "w3csscljc.example/on-js-reload"
                            :websocket-host :js-client-host}
-                :compiler {:main w3csscljc.core
+                :compiler {:main w3csscljc.example
                            :asset-path "js/compiled/out"
                            :output-to "resources/public/js/compiled/w3csscljc.js"
                            :output-dir "resources/public/js/compiled/out"
@@ -28,12 +28,12 @@
                {:id "min"
                 :source-paths ["src"]
                 :compiler {:output-to "resources/public/js/compiled/w3csscljc.js"
-                           :main w3csscljc.core
+                           :main w3csscljc.example
                            :optimizations :advanced
                            :pretty-print false}}]}
                 
   :figwheel {:server-ip "0.0.0.0"
-             :css-dirs ["resources/public/less"]}
+             :css-dirs ["resources/public/css/compiled"]}
  
   :less {:source-paths ["resources/public/less"]
          :target-path "resources/public/css/compiled"}
