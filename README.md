@@ -6,7 +6,13 @@ For every feature a function is provided, that allows creation of hiccup/html wi
 
     [w3csscljc-edn] --> [hiccup] --> [html+w3css]
 
-## Open the example
+## Example
+
+### Online
+
+[Online example](https://rawgit.com/johannesloetzsch/w3csscljc/compiled/resources/public/index.html)
+
+### Local
 
 ```shell
 > git clone https://github.com/johannesloetzsch/w3csscljc
