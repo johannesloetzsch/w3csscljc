@@ -1,4 +1,4 @@
-(ns w3csscljc.features.fixed+footer.simple)
+(ns w3csscljc.features.fixed-footer.simple)
 
 (defn ->fixed+footer
   "use w3-col as content when you want width to be 100%"

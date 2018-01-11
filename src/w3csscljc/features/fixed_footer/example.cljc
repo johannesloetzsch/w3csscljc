@@ -1,5 +1,5 @@
-(ns w3csscljc.features.fixed+footer.example
-  (:require [w3csscljc.features.fixed+footer.simple :refer [->fixed+footer]]))
+(ns w3csscljc.features.fixed-footer.example
+  (:require [w3csscljc.features.fixed-footer.simple :refer [->fixed+footer]]))
 
 (defn n*str [n s]
   (apply str (for [i (range n)] s)))
