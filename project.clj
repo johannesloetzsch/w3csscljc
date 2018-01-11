@@ -6,7 +6,9 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.9.946"]
                  [hiccups "0.3.0"]
-                 [domina "1.0.3"]]
+                 [domina "1.0.3"]
+                 [cljs-ajax "0.7.3"]
+                 [markdown-clj "1.0.2"]]
 
   :plugins [[lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]
             [lein-figwheel "0.5.14"]
